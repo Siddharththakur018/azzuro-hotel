@@ -1,0 +1,18 @@
+# Local credentials and environment configuration
+.env
+.env.*
+!.env.example
+backend/.env
+frontend/.env
+
+# Installed dependencies and generated output
+**/node_modules/
+**/dist/
+coverage/
+
+# Local data exports and editor/OS files
+*.csv
+*.log
+.DS_Store
+.idea/
+.vscode/
